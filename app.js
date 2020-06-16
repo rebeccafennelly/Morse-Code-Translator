@@ -38,11 +38,7 @@ const alpha = {
   
 }
 
-
-
-
-
-  const convertFunction = () => {
+const convertFunction = () => {
     const getInputText = document.getElementById("input").value;
     let characters = getInputText.split("");
 
@@ -53,9 +49,8 @@ const alpha = {
 
   outputWord = morseCharacters.join("");
   document.querySelector("#outputBox").innerHTML += outputWord;
-    }
+}
   
-
 const submit = document.getElementById('submit');
 
 submit.addEventListener("click", () => {
